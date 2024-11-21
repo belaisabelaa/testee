@@ -1,7 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap');
 :root {
     --bg-color: #BFECFF;
     --primary-color: #CDC1FF;
     --secundary-color: #FFCCEA;
+    --font:"Cuprum", sans-serif;
    }
-    
+
+body {
+    background-color: #BFECFF;
+    color: #CDC1FF;
+    font-family: var("Cuprum", sans-serif);
+    height: 100vh;
+    margin: 0;
+   }
+
+header{
+    background-color: #BFECFF;
+    text-align: center;
+    padding: 1px;
+   }
+
+h1{
+    font-size: 2rem;
+    color: #BFECFF;
+    font-weight: 700;
+   }
+   
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #BFECFF;
+    margin: 0rem 2rem 3rem 0rem;
+    font-size: 12rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CDC1FF;
+    color: #BFECFF;
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
