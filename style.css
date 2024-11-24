@@ -25,7 +25,7 @@ header{
 h1{
     font-size: 2rem;
     color: #BFECFF;
-    font-weight: 700;
+    font-weight: 300;
    }
    
 nav{
@@ -42,7 +42,7 @@ nav a {
     font-size: 12rem;   
 }
 
-nav a {
+nav a:hover{
     text-decoration: undernine;
     transform: scale(0.90);
     transition: transform 0.1s;
