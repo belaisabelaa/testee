@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
     --bg-color: #BFECFF;
     --primary-color: #CDC1FF;
@@ -37,7 +38,7 @@ nav a:hover {
     text-decoration: none;
     color: #BFECFF;
     margin: 0rem 2rem 3rem 0rem;
-    font-size: 12rem;
+    font-size: 12rem;   
 }
 
 footer{
