@@ -2,14 +2,14 @@
 url('https://fonts.googleapis.com/css2?family=Anton&family=Cuprum:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
-    --bg-color: #BFECFF;
+    --bg-color: #5ca7c7;
     --primary-color: #CDC1FF;
     --secundary-color: #FFCCEA;
     --font:"Merriweather", serif;
    }
 
 body {
-    background-color: #BFECFF;
+    background-color: #5ca7c7;
     color: #CDC1FF;
     font-family: var("Merriweather", serif);
     height: 100vh;
@@ -17,7 +17,7 @@ body {
    }
 
 header{
-    background-color: #BFECFF;
+    background-color: #5ca7c7;
     text-align: center;
     padding: 1px;
    }
@@ -52,7 +52,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #CDC1FF;
+    background-color: #9e86fd;
     color: #BFECFF;
     width: 100%;
     height: 3rem;
